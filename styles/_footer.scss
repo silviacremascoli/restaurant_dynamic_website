@@ -1,0 +1,16 @@
+.footer {
+  .container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0 30px;
+    .column {
+      display: block;
+      height: auto;
+      font-size: 24px;
+      margin-right: 20px;
+    span {
+       display: block;
+     }
+    }
+  }
+}

@@ -12,7 +12,7 @@
 <div class="container">
 
     <div class="banner">
-
+        <img src="/img/banner.png" alt="banner">
     </div>
 
     <div class="navbar">
@@ -25,7 +25,18 @@
 
         </div>
         <div class="footer">
-            <div class=""></div>
+            <div class="container">
+                <div class="column">
+                    <strong>Phone</strong>: <span>838 453627</span>
+                </div>
+                <div class="column">
+                    <strong>Address</strong>: <span>32631 Rowe Mews, 30424 East Maeganfort</span>
+                </div>
+                <div class="column">
+                    <strong>Hours</strong>: <br>
+                    <span>Tuesday - Thursday</span>
+                </div>
+            </div>
         </div>
     </div>
 
