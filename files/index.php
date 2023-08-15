@@ -20,7 +20,10 @@
     </div>
 
     <div class="page-content">
-        <h1>Hello World!</h1>
+        <h1>Welcome to Franklin's Awesome Diner!</h1>
+        <div class="menu">
+
+        </div>
         <div class="footer">
             <div class=""></div>
         </div>
