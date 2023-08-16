@@ -9,7 +9,7 @@
     <link href="/styles/styles.css" rel="stylesheet">
 </head>
 <body>
-<div class="container">
+<div class="content">
 
     <div class="banner">
         <img src="/img/banner.png" alt="banner">

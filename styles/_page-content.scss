@@ -1,8 +1,19 @@
 body {
   margin: 0;
   padding: 0;
+  background: $secondary-colour;
+}
+
+.content {
+  max-width: 600px;
+  margin: 30px auto;
+  background: cornsilk;
+  box-shadow: -8px 8px rgba(81, 73, 51, 1);
+  border: 2px solid #97917E;
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 36px;
+  color: $primary-colour;
+  text-align: center;
 }

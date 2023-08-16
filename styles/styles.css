@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 .banner {
   margin: 0;
   padding: 0;
@@ -9,10 +10,21 @@
 body {
   margin: 0;
   padding: 0;
+  background: #A8B096;
+}
+
+.content {
+  max-width: 600px;
+  margin: 30px auto;
+  background: cornsilk;
+  box-shadow: -8px 8px rgb(81, 73, 51);
+  border: 2px solid #97917E;
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 36px;
+  color: #4D6D1D;
+  text-align: center;
 }
 
 .footer .container {
@@ -23,8 +35,8 @@ h1 {
 .footer .container .column {
   display: block;
   height: auto;
-  font-size: 24px;
-  margin-right: 20px;
+  margin: 10px 20px 10px 0;
+  font-size: 16px;
 }
 .footer .container .column span {
   display: block;
