@@ -41,5 +41,8 @@ h1 {
 .footer .container .column span {
   display: block;
 }
+.footer .container span {
+  margin-bottom: 10px;
+}
 
 /*# sourceMappingURL=styles.css.map */
