@@ -1,10 +1,10 @@
 <div class="footer">
     <div class="container">
         <div class="column">
-            <strong>Phone</strong><br><br> <span>838 453627</span>
+            <strong>Phone</strong><br><br> <span>838 453627 <br><em>(only during opening hours)</em></span>
         </div>
         <div class="column">
-            <strong>Address</strong><br><br> <span>32631 Rowe Mews,<br> 30424 East Maeganfort</span>
+            <strong>Address</strong><br><br> <span>519 Blanda Hill<br> Ernestoston, MO</span>
         </div>
         <div class="column">
             <strong>Opening hours</strong> <br> <br>
