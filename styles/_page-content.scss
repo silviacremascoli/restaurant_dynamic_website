@@ -1,15 +1,24 @@
 body {
   margin: 0;
   padding: 0;
-  background: $secondary-colour;
+  background-image: linear-gradient(135deg, $secondary-colour 25%, transparent 25%), linear-gradient(225deg, $secondary-colour 25%, transparent 25%), linear-gradient(45deg, $secondary-colour 25%, transparent 25%), linear-gradient(315deg, $secondary-colour 25%, $tertiary-colour 25%);
+  background-position:  10px 0, 10px 0, 0 0, 0 0;
+  background-size: 20px 20px;
+  background-repeat: repeat;
+  font-family: $default-font-family;
 }
 
 .content {
-  max-width: 600px;
+  max-width: 700px;
   margin: 30px auto;
-  background: cornsilk;
+  opacity: 1;
+  background: $tertiary-colour;
   box-shadow: -8px 8px rgba(81, 73, 51, 1);
-  border: 2px solid #97917E;
+  border: 2px solid $quaternary-colour;
+}
+
+.page-content {
+  margin: 0 40px;
 }
 
 h1 {

@@ -1,0 +1,32 @@
+.navbar {
+  margin: -40px 0 0;
+  text-align: center;
+
+  ul {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+
+    li {
+      display: inline-block;
+      text-align: center;
+      margin: 0 10px;
+
+      a {
+        display: block;
+        background: $quinary-colour;
+        outline: 2px solid $quinary-colour;
+        border: 2px solid $tertiary-colour;
+        color: $tertiary-colour;
+        padding: 10px 15px;
+        text-decoration: none;
+        transition: 200ms ease-in-out;
+
+        &:hover {
+          background: $primary-colour;
+          outline: 2px solid $primary-colour;
+        }
+      }
+    }
+  }
+}
