@@ -8,7 +8,7 @@
 }
 
 .navbar {
-  margin: -40px 0 0;
+  margin: -43px 0 0;
   text-align: center;
 }
 .navbar ul {
@@ -47,7 +47,7 @@ body {
 }
 
 .content {
-  max-width: 700px;
+  max-width: 800px;
   margin: 30px auto;
   opacity: 1;
   background: #FFF8DC;
@@ -55,8 +55,12 @@ body {
   border: 2px solid #97917E;
 }
 
-.page-content {
+.homepage {
   margin: 0 40px;
+}
+.homepage .description {
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 h1 {
@@ -73,9 +77,10 @@ h1 {
 .footer .container .column {
   display: block;
   height: auto;
+  text-align: center;
   margin: 10px 20px 10px 0;
   padding: 0 10px;
-  font-size: 16px;
+  font-size: 13px;
 }
 .footer .container .column:last-child {
   margin: 10px 0;

@@ -7,7 +7,7 @@
             <strong>Address</strong><br><br> <span>32631 Rowe Mews,<br> 30424 East Maeganfort</span>
         </div>
         <div class="column">
-            <strong>Hours</strong> <br> <br>
+            <strong>Opening hours</strong> <br> <br>
             <span><em>Monday:</em> <span>Closed</span></span>
             <span><em>Tuesday - Thursday:</em> <span>12:00 pm - 11:00 pm</span></span>
             <span><em>Friday - Saturday:</em> <span>12:00 pm - 12:00 am</span></span>
