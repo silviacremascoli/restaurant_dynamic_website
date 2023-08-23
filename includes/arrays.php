@@ -11,7 +11,7 @@ $navbar = array(
     ),
     array(
         "url" => "menu.php",
-        "title" => "Menü"
+        "title" => "Menu"
     ),
     array(
         "url" => "contact.php",

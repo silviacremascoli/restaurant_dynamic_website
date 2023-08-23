@@ -1,5 +1,5 @@
 <?php
-include('includes/arrays.php');
+include('../includes/arrays.php');
 ?>
 
 <div class="banner">
@@ -8,4 +8,4 @@ include('includes/arrays.php');
     </a>
 </div>
 
-<?php include('includes/nav.php');
+<?php include('../includes/nav.php');
