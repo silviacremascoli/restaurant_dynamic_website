@@ -11,7 +11,7 @@
 <body>
 <div class="content">
 
-    <?php include('includes/header.php'); ?>
+    <?php include('header.php'); ?>
 
     <div class="homepage">
         <h1>Welcome to Franklin's Fine Dining!</h1>

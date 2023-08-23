@@ -1,17 +1,14 @@
+
 <div class="navbar">
     <ul>
-        <li>
-            <a href="/">Home</a>
-        </li>
-        <li>
-            <a href="../team.php">Team</a>
-        </li>
-        <li>
-            <a href="../menu.php">Menu</a>
-        </li>
-        <li>
-            <a href="../contact.php">Contact</a>
-        </li>
+
+        <?php
+        global$navbar;
+        foreach ($navbar as $navLink) {
+            echo "<li><a href=\"$navLink[url]\">$navLink[title]</a></li>";
+        }
+        ?>
+
     </ul>
 
 </div>
