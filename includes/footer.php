@@ -19,3 +19,6 @@
     </div>
     <?php include('copyright.php') ?>
 </div>
+</div>
+</body>
+</html>
