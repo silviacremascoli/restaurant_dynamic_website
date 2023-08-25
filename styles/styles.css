@@ -92,6 +92,14 @@ h1 {
   margin-bottom: 10px;
 }
 
+.open {
+  color: #4D6D1D;
+}
+
+.closed {
+  color: darkred;
+}
+
 #copyright {
   margin: 20px auto;
 }

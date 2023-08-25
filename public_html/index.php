@@ -1,17 +1,8 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Franklin's Fine Dining - Your new favorite restaurant! 🍔</title>
-    <link href="/styles/styles.css" rel="stylesheet">
-</head>
-<body>
-<div class="content">
+<?php
+define("TITLE", "Home | Franklin's Fine Dining");
+include('header.php'); ?>
 
-    <?php include('header.php'); ?>
+
 
     <div class="homepage">
         <h1>Welcome to Franklin's Fine Dining!</h1>

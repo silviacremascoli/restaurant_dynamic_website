@@ -9,12 +9,13 @@
         <div class="column">
             <strong>Opening hours</strong> <br> <br>
             <span><em>Monday:</em> <span>Closed</span></span>
-            <span><em>Tuesday - Thursday:</em> <span>12:00 pm - 11:00 pm</span></span>
-            <span><em>Friday - Saturday:</em> <span>12:00 pm - 12:00 am</span></span>
-            <span><em>Sunday:</em> <span>10:00 am - 12:00 am</span></span>
+            <span><em>Tuesday - Thursday:</em> <span>12:00pm - 11:00pm</span></span>
+            <span><em>Friday - Saturday:</em> <span>12:00pm - 12:00am</span></span>
+            <span><em>Sunday:</em> <span>10:00am - 12:00am</span></span>
+
+            <?php include("store-hours.php"); ?>
 
         </div>
     </div>
-    <?php include('store-hours.php') ?>
     <?php include('copyright.php') ?>
 </div>
