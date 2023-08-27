@@ -70,12 +70,12 @@ h1 {
 }
 
 #team-members {
-  padding: 0 30px 20px 30px;
+  padding: 0 30px;
 }
 #team-members .team {
   display: grid;
   grid-template-columns: auto auto auto;
-  margin-bottom: 40px;
+  margin: 40px 0;
 }
 #team-members p, #team-members h2 {
   text-align: center;
