@@ -17,6 +17,7 @@ include("../includes/header.php");
 
     <ul>
         <?php
+        // accessing the key and value pairs in the menuItems array
         foreach ($menuItems as $dish => $item) {
         ?>
             <li><a href="dish.php?item=<?php echo $dish; ?>"><?php echo $item["title"]; ?></a><span class="price"><sup>$</sup><?php echo $item["price"];  ?></span></li>
