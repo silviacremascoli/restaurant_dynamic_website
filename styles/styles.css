@@ -201,6 +201,19 @@ h1 {
   outline: 2px solid #4D6D1D;
   cursor: pointer;
 }
+#contact .error-page, #contact .success-page {
+  text-align: center;
+}
+#contact .error-page .error, #contact .success-page .error {
+  color: darkred;
+}
+#contact .error-page .button, #contact .success-page .button {
+  display: inline-block;
+}
+#contact .error-page h4, #contact .success-page h4 {
+  font-size: 20px;
+  color: #514933;
+}
 
 .footer .container {
   display: grid;

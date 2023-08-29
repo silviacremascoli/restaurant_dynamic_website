@@ -10,6 +10,7 @@
       font-weight: bold;
       text-transform: uppercase;
     }
+
     input[type="text"],
     input[type="email"],
     textarea {
@@ -23,10 +24,12 @@
       -webkit-font-smoothing: antialiased;
       text-rendering: optimizelegibility;
     }
+
     textarea {
       resize: vertical;
       height: 120px;
     }
+
     input[type="checkbox"] + label {
       display: inline;
       cursor: pointer;
@@ -43,6 +46,7 @@
     padding: 10px 15px;
     text-decoration: none;
     transition: 300ms ease-in-out;
+
     &:hover {
       background: $tertiary-colour;
       color: $primary-colour;
@@ -50,4 +54,22 @@
       cursor: pointer;
     }
   }
+
+  .error-page, .success-page {
+    text-align: center;
+
+    .error {
+      color: darkred;
+    }
+
+    .button {
+      display: inline-block;
+    }
+
+    h4 {
+      font-size: 20px;
+      color: $quinary-colour;
+    }
+  }
+
 }

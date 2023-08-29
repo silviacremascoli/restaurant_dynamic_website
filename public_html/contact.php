@@ -32,7 +32,7 @@ include("../includes/header.php");
 
         // checks whether the inputs have been filled
         if (!$name || !$email || !$msg) {
-            echo '<h4 class="error">All fields required. Please fill in the missing fields.</h4><a href="contact.php" class="button">Go back and try again.</a>';
+            echo '<div class="error-page"><h4 class="error">All fields required. Please fill in the missing fields.</h4><a href="contact.php" class="button">Go back and try again.</a></div>';
             exit;
         }
 
@@ -69,9 +69,11 @@ include("../includes/header.php");
 
     ?>
     <!-- shows success message after email has been sent -->
-        <h4>Thanks for contacting Franklin's!</h4>
-        <p>Please allow 24 hours for a response.</p>
-        <p><a href="index.php" class="button">← &nbsp; Go back to homepage</a></p>
+        <div class="success-page">
+            <h4>Thanks for contacting Franklin's!</h4>
+            <p>Please allow 24 hours for a response.</p>
+            <p><a href="index.php" class="button">← &nbsp; Go back to homepage</a></p>
+        </div>
     <?php } else {
 
     ?>
