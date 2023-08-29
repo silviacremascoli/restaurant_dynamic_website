@@ -34,7 +34,7 @@ function suggestedTip($price, $tip) {
 
     <p><strong>Suggested beverage: <?php echo $dish["drink"]; ?></strong></p>
     <p><em>Suggested tip: <sup>$</sup><?php suggestedTip($dish["price"], 0.20);?></em></p>
-    <a href="menu.php" class="button">Back to menu</a>
+    <a href="menu.php" class="button">← &nbsp; Back to menu</a>
 
 </div>
 

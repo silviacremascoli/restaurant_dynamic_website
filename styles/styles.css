@@ -152,6 +152,56 @@ h1 {
   outline: 2px solid #4D6D1D;
 }
 
+#contact {
+  width: 320px;
+  margin: 0 auto;
+}
+#contact #contact-form label {
+  display: block;
+  color: #514933;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#contact #contact-form input[type=text],
+#contact #contact-form input[type=email],
+#contact #contact-form textarea {
+  border: solid 2px #514933;
+  outline: none;
+  font-size: 18px;
+  padding: 10px;
+  margin: 0 0 10px;
+  width: 300px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+}
+#contact #contact-form textarea {
+  resize: vertical;
+  height: 120px;
+}
+#contact #contact-form input[type=checkbox] + label {
+  display: inline;
+  cursor: pointer;
+}
+#contact .button {
+  display: block;
+  background: #4D6D1D;
+  outline: 2px solid #4D6D1D;
+  border: 2px solid #FFF8DC;
+  color: #FFF8DC;
+  margin: 40px auto;
+  padding: 10px 15px;
+  text-decoration: none;
+  transition: 300ms ease-in-out;
+}
+#contact .button:hover {
+  background: #FFF8DC;
+  color: #4D6D1D;
+  outline: 2px solid #4D6D1D;
+  cursor: pointer;
+}
+
 .footer .container {
   display: grid;
   grid-template-columns: auto auto auto;
