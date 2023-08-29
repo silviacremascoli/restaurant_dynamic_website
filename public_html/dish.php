@@ -17,18 +17,15 @@ if (isset($_GET['item'])) {
     $dish = $menuItems[$menuItem];
 }
 
-// calculates a suggested stip based on the price
+// calculates a suggested tip based on the price
 function suggestedTip($price, $tip) {
 
     $totalTip = $price * $tip;
-    // $fmt = new NumberFormatter('en_US', NumberFormatter::CURRENCY);
-    //echo $fmt->formatCurrency($totalTip, "USD").'\n';
-
     echo $totalTip;
 }
 ?>
 
-<div>
+<div id="dish">
 
     <h1><?php echo $dish["title"]; ?> <span class="price"><sup>$</sup><?php echo $dish["price"]; ?></span></h1>
     <p><?php echo $dish["description"]; ?></p>
@@ -37,10 +34,10 @@ function suggestedTip($price, $tip) {
 
     <p><strong>Suggested beverage: <?php echo $dish["drink"]; ?></strong></p>
     <p><em>Suggested tip: <sup>$</sup><?php suggestedTip($dish["price"], 0.20);?></em></p>
+    <a href="menu.php" class="button">Back to menu</a>
 
 </div>
 
-<a href="menu.php" class="button previous">Back to menu</a>
 
 
 

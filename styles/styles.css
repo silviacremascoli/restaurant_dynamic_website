@@ -122,6 +122,36 @@ h1 {
   margin-left: 10px;
 }
 
+#dish {
+  text-align: center;
+}
+#dish p {
+  margin: 0 40px;
+}
+#dish .price {
+  color: #514933;
+  font-weight: 500;
+}
+#dish .price sup {
+  font-size: 20px;
+}
+#dish .button {
+  display: inline-block;
+  background: #4D6D1D;
+  outline: 2px solid #4D6D1D;
+  border: 2px solid #FFF8DC;
+  color: #FFF8DC;
+  margin: 40px auto;
+  padding: 10px 15px;
+  text-decoration: none;
+  transition: 300ms ease-in-out;
+}
+#dish .button:hover {
+  background: #FFF8DC;
+  color: #4D6D1D;
+  outline: 2px solid #4D6D1D;
+}
+
 .footer .container {
   display: grid;
   grid-template-columns: auto auto auto;

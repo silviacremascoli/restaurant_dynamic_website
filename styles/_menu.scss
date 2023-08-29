@@ -28,3 +28,35 @@
   }
 }
 
+#dish {
+  text-align: center;
+  p {
+    margin: 0 40px;
+  }
+  .price {
+    color: $quinary-colour;
+    font-weight: 500;
+    sup {
+      font-size: 20px;
+    }
+  }
+  .button {
+    display: inline-block;
+    background: $primary-colour;
+    outline: 2px solid $primary-colour;
+    border: 2px solid $tertiary-colour;
+    color: $tertiary-colour;
+    margin: 40px auto;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: 300ms ease-in-out;
+    &:hover {
+      background: $tertiary-colour;
+      color: $primary-colour;
+      outline: 2px solid $primary-colour;
+    }
+  }
+}
+
+
+
