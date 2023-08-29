@@ -16,7 +16,7 @@ include('../includes/arrays.php');
 <div class="content">
 
 <div class="banner">
-    <a href="/" title="Return to homepage">
+    <a href="../public_html/index.php" title="Return to homepage">
     <img src="/img/banner.png" alt="banner">
     </a>
 </div>

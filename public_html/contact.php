@@ -68,8 +68,8 @@ include("../includes/header.php");
         mail($to, $subject, $msg, $headers);
 
     ?>
-    <!-- Show success message after email has been sent -->
-        <h5>Thanks for contacting Franklin's!</h5>
+    <!-- shows success message after email has been sent -->
+        <h4>Thanks for contacting Franklin's!</h4>
         <p>Please allow 24 hours for a response.</p>
         <p><a href="index.php" class="button">← &nbsp; Go back to homepage</a></p>
     <?php } else {
