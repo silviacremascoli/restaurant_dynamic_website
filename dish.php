@@ -1,7 +1,7 @@
 <?php
 global$menuItems;
 define("TITLE", "Menu | Franklin's Fine Dining");
-include("../includes/header.php");
+include("includes/header.php");
 
 //prevents other developers to manipulate the query strings
 function strip_bad_chars($input) {
@@ -41,4 +41,4 @@ function suggestedTip($price, $tip) {
 
 
 
-<?php include("../includes/footer.php"); ?>
+<?php include("includes/footer.php"); ?>

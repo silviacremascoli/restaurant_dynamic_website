@@ -1,7 +1,7 @@
 <?php
 global$menuItems;
 define("TITLE", "Menu | Franklin's Fine Dining");
-include("../includes/header.php");
+include("includes/header.php");
 
 ?>
 
@@ -29,5 +29,5 @@ include("../includes/header.php");
 </div>
 
 <?php
-include("../includes/footer.php");
+include("includes/footer.php");
 ?>

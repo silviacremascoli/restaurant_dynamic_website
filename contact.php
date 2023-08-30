@@ -2,7 +2,7 @@
 
 define("TITLE", "Contact us | Franklin's Fine Dining");
 
-include("../includes/header.php");
+include("includes/header.php");
 
 ?>
 
@@ -100,4 +100,4 @@ include("../includes/header.php");
 
 
 
-<?php include("../includes/footer.php"); ?>
+<?php include("includes/footer.php"); ?>

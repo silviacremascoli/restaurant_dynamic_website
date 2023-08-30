@@ -1,7 +1,7 @@
 <?php
 global $teamMembers;
 define("TITLE", "Team | Franklin's Fine Dining");
-include('../includes/header.php');
+include('includes/header.php');
 
 ?>
 
@@ -24,4 +24,4 @@ include('../includes/header.php');
     </div>
 </div>
 
-<?php include('../includes/footer.php'); ?>
+<?php include('includes/footer.php'); ?>
