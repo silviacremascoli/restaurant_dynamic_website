@@ -1,5 +1,5 @@
 <?php
-define("TITLE", "Home | Franklin's Fine Dining");
+const TITLE = "Home | Franklin's Fine Dining";
 include('includes/header.php'); ?>
 
     <div class="homepage">

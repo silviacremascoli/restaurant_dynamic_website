@@ -1,6 +1,5 @@
 <?php
-
-define("TITLE", "Contact us | Franklin's Fine Dining");
+const TITLE = "Contact us | Franklin's Fine Dining";
 
 include("includes/header.php");
 
@@ -12,7 +11,8 @@ include("includes/header.php");
     <?php
 
     // checks for header injections
-    function has_header_injections($str) {
+    function has_header_injections($str): false|int
+    {
         return preg_match("/[\r\n]/", $str);
     }
 
@@ -25,7 +25,7 @@ include("includes/header.php");
         // value in the textarea input
         $msg = $_POST['message'];
         
-        // checks to see if $name or $email have header injections
+        // checks whether $name or $email have header injections
         if (has_header_injections($name) || has_header_injections($email)) {
             die(); // if true, kills the script
         }

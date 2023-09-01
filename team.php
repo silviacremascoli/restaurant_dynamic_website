@@ -1,6 +1,6 @@
 <?php
 global $teamMembers;
-define("TITLE", "Team | Franklin's Fine Dining");
+const TITLE = "Team | Franklin's Fine Dining";
 include('includes/header.php');
 
 ?>

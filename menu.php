@@ -1,6 +1,6 @@
 <?php
 global$menuItems;
-define("TITLE", "Menu | Franklin's Fine Dining");
+const TITLE = "Menu | Franklin's Fine Dining";
 include("includes/header.php");
 
 ?>
@@ -20,7 +20,7 @@ include("includes/header.php");
         // accessing the key and value pairs in the menuItems array
         foreach ($menuItems as $dish => $item) {
         ?>
-            <li><a href="dish.php?item=<?php echo $dish; ?>"><?php echo $item["title"]; ?></a><span class="price"><sup>$</sup><?php echo $item["price"];  ?></span></li>
+            <li><a href="/dish.php?item=<?php echo $dish; ?>"><?php echo $item["title"]; ?></a><span class="price"><sup>$</sup><?php echo $item["price"];  ?></span></li>
 
 
         <?php } ?>

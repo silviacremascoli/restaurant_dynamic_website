@@ -1,12 +1,12 @@
 <?php
 global$menuItems;
-define("TITLE", "Menu | Franklin's Fine Dining");
+const TITLE = "Menu | Franklin's Fine Dining";
 include("includes/header.php");
 
 //prevents other developers to manipulate the query strings
-function strip_bad_chars($input) {
-    $output = preg_replace( "/[^a-zA-Z0-9_-]/", "", $input );
-    return $output;
+function strip_bad_chars($input): array|string|null
+{
+    return preg_replace( "/[^a-zA-Z0-9_-]/", "", $input );
 }
 
 // checks that the variable has been set
@@ -18,7 +18,8 @@ if (isset($_GET['item'])) {
 }
 
 // calculates a suggested tip based on the price
-function suggestedTip($price, $tip) {
+function suggestedTip($price, $tip): void
+{
 
     $totalTip = $price * $tip;
     echo $totalTip;
@@ -34,7 +35,7 @@ function suggestedTip($price, $tip) {
 
     <p><strong>Suggested beverage: <?php echo $dish["drink"]; ?></strong></p>
     <p><em>Suggested tip: <sup>$</sup><?php suggestedTip($dish["price"], 0.20);?></em></p>
-    <a href="menu.php" class="button">← &nbsp; Back to menu</a>
+    <a href="/menu.php" class="button">← &nbsp; Back to menu</a>
 
 </div>
 
