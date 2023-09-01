@@ -1,0 +1,2 @@
+php_value memory_limit 512M
+php_value display_errors on
