@@ -11,7 +11,7 @@ include("includes/header.php");
     <?php
 
     // checks for header injections
-    function has_header_injections($str): false|int
+    function has_header_injections($str)
     {
         return preg_match("/[\r\n]/", $str);
     }

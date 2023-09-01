@@ -4,7 +4,7 @@ const TITLE = "Menu | Franklin's Fine Dining";
 include("includes/header.php");
 
 //prevents other developers to manipulate the query strings
-function strip_bad_chars($input): array|string|null
+function strip_bad_chars($input)
 {
     return preg_replace( "/[^a-zA-Z0-9_-]/", "", $input );
 }

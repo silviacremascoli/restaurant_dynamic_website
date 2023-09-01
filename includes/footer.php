@@ -13,7 +13,7 @@
             <span><em>Friday - Saturday:</em> <span>12:00pm - 12:00am</span></span>
             <span><em>Sunday:</em> <span>10:00am - 12:00am</span></span>
 
-            <?php include("store-hours.php"); ?>
+            <?php include('store-hours.php'); ?>
 
         </div>
     </div>
