@@ -69,6 +69,11 @@ h1 {
   text-align: center;
 }
 
+hr {
+  max-width: 150px;
+  border: 1px solid #4D6D1D;
+}
+
 #team-members {
   padding: 0 30px;
 }
@@ -217,14 +222,14 @@ h1 {
 
 .footer .container {
   display: grid;
-  grid-template-columns: auto auto auto;
-  margin: 0 40px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 30px 40px;
 }
 .footer .container .column {
   display: block;
   height: auto;
   text-align: center;
-  margin: 10px 20px 10px 0;
+  margin: 10px 0;
   padding: 0 10px;
   font-size: 13px;
 }
@@ -247,17 +252,12 @@ h1 {
 }
 
 #copyright {
-  margin: 20px auto;
-}
-#copyright hr {
-  max-width: 70px;
-  color: black;
-  margin-bottom: 20px;
+  margin: 30px auto;
 }
 #copyright p {
   font-size: 12px;
   text-align: center;
-  margin: 5px auto;
+  margin: 20px auto;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,13 +1,13 @@
 .footer {
   .container {
     display: grid;
-    grid-template-columns: auto auto auto;
-    margin: 0 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 30px 40px;
     .column {
       display: block;
       height: auto;
       text-align: center;
-      margin: 10px 20px 10px 0;
+      margin: 10px 0;
       padding: 0 10px;
       font-size: 13px;
       &:last-child {
