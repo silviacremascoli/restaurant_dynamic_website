@@ -10,7 +10,7 @@ include('arrays.php');
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="icon" href="../img/logo.png" type="image/x-icon" />
 <title><?php echo TITLE; ?></title>
-<link href="/styles/styles.css" rel="stylesheet">
+<link href="../styles/styles.css" rel="stylesheet">
 </head>
 
 <body>

@@ -233,9 +233,6 @@ hr {
   padding: 0 10px;
   font-size: 13px;
 }
-.footer .container .column:last-child {
-  margin: 10px 0;
-}
 .footer .container .column span {
   display: block;
 }
